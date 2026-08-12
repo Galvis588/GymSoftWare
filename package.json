@@ -1,0 +1,26 @@
+{
+  "name": "servidorGym",
+  "version": "1.0.0",
+  "description": "Creacion y definicion de un servidor conectado a una base de datos por medio de una ORM",
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "ORM",
+    "MySQL",
+    "SQL"
+  ],
+  "license": "ISC",
+  "author": "Andres Galvis",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.23.3",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  }
+}
