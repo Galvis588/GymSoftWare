@@ -1,4 +1,4 @@
-export const DB_NAME = "g training";
+export const DB_NAME = "G-training";
 export const DB_USER = "root";
 export const DB_PASSWORD = "";
 export const OBJ_CONN = {
@@ -9,7 +9,5 @@ export const OBJ_CONN = {
 
 export const PORT_SERVER = 3000;
 export const HOST_SERVER = "http://localhost:";
-export {
-    DB_NAME, DB_PASSWORD, DB_USER, OBJ_SEQUELIZE
-}
+
 
