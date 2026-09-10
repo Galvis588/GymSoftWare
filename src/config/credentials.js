@@ -9,4 +9,7 @@ export const OBJ_CONN = {
 
 export const PORT_SERVER = 3000;
 export const HOST_SERVER = "http://localhost:";
+export {
+    DB_NAME, DB_PASSWORD, DB_USER, OBJ_SEQUELIZE
+}
 
