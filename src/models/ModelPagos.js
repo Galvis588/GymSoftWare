@@ -21,7 +21,8 @@ export const Pago = conn.define("Pago", {
 
     pago: {
         type: DataTypes.BOOLEAN,
-        allowNull: false
+        allowNull: false,
+        defaultValue: false
     }
 
 }, {

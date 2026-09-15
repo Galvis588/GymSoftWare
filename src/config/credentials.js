@@ -9,5 +9,3 @@ export const OBJ_CONN = {
 
 export const PORT_SERVER = 3000;
 export const HOST_SERVER = "http://localhost:";
-
-
