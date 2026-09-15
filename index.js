@@ -4,6 +4,7 @@ import { PORT_SERVER, HOST_SERVER } from "./src/config/credentials.js";
 
 import "./src/models/Relaciones.js";
 import routes from "./src/routes/index.js";
+import { rutaNoEncontrada, manejarErrores } from "./src/middlewares/errorMiddleware.js";
 
 const app = express();
 
@@ -11,6 +12,10 @@ app.use(express.json());
 
 // RUTAS
 app.use("/api", routes);
+
+// MIDDLEWARES DE ERROR (deben ir SIEMPRE al final, después de las rutas)
+app.use(rutaNoEncontrada);
+app.use(manejarErrores);
 
 
 // CONEXIÓN CON LA BASE DE DATOS
